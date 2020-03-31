@@ -5,7 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Target
-  - WasOccluder
+  - NoGrab
+  - NoLift
   - Explodable
   - Level
   layers:
@@ -17,30 +18,30 @@ TagManager:
   - UI
   - 
   - 
+  - Ball
+  - Player
+  - DefaultNoCam
+  - CollideBall
+  - CollideBallNoCam
+  - CollidePlayer
+  - CollidePlayerNoCam
+  - Triggers
+  - BlockHuman
+  - Listener
+  - 
+  - Track
+  - Cart
+  - IgnoreDoor
+  - Door
+  - CollideWithTrack
+  - SmallObjects
+  - Ice
   - 
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - CamScanBackground
+  - CamScan
   m_SortingLayers:
   - name: Default
     uniqueID: 0

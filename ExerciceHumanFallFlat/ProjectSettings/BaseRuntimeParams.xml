@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RuntimeParams>
+  <!-- for reference, the 'condition' attribute (if present and not empty) accepts
+    a C#-like logic expression, containing any of: whitespace, names (which evaluate
+    to 1 if defined and 0 if not), 1/0/true/false constants, plus !()&| operators
+    (with || and && accepted as alternatives). If the expression evaluates to false,
+    the element is skipped.
+    Except you can't use & in xml, so **/* is accepted for &&/& and ++/+ for ||/|.
+    -->
+      
+
+  <!-- just a little twiddle for save game diagnostics in crash dumps -->
+  <Param key="Territory" value="1" condition="CURVE_EUR * UNITY_PS4"/>
+  <Param key="Territory" value="2" condition="CURVE_USA * UNITY_PS4"/>
+  <Param key="Territory" value="3" condition="CURVE_JPN * UNITY_PS4"/>
+  
+  <!--
+    This sets the save-game version stamp applied to PS4 saves. It lets us block loading of
+    saves from newer versions of the game, and helps identify saves that need upgrading from
+    earlier versions of the game.
+      0: v1.00-1.02 (EUR/USA)
+      1: v1.03+ (EUR/USA) / v1.00+ (JPN)
+  -->
+  <Param key="SaveGameVer" value="1" condition="UNITY_PS4"/>
+
+</RuntimeParams>
