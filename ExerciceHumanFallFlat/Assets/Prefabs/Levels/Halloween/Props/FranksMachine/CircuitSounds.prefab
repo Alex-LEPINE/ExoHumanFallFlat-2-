@@ -1,0 +1,363 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1075574590421436}
+  m_IsPrefabParent: 1
+--- !u!1 &1064697656760828
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4573516821307904}
+  - component: {fileID: 114096553066457678}
+  m_Layer: 0
+  m_Name: ShortCircuit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1068614057650626
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4221173447831438}
+  - component: {fileID: 114100037438742456}
+  m_Layer: 0
+  m_Name: PlugIn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1075574590421436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4937714656760626}
+  - component: {fileID: 114242070212472308}
+  m_Layer: 0
+  m_Name: CircuitSounds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1077989862753054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4585729077762416}
+  - component: {fileID: 114532257884298460}
+  m_Layer: 0
+  m_Name: PlugOut
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1397333952196198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4437048675776288}
+  - component: {fileID: 114993716147505100}
+  m_Layer: 0
+  m_Name: SparkOn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1586227765655304
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4790537016387980}
+  - component: {fileID: 114578950655019492}
+  m_Layer: 0
+  m_Name: SparkOff
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4221173447831438
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1068614057650626}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4937714656760626}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4437048675776288
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1397333952196198}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4937714656760626}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4573516821307904
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1064697656760828}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4937714656760626}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4585729077762416
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1077989862753054}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4937714656760626}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4790537016387980
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1586227765655304}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4937714656760626}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4937714656760626
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1075574590421436}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4221173447831438}
+  - {fileID: 4585729077762416}
+  - {fileID: 4437048675776288}
+  - {fileID: 4790537016387980}
+  - {fileID: 4573516821307904}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114096553066457678
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1064697656760828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 830588400, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  group: Circuit
+  sample: ShortCircuit
+  localSample: {fileID: 0}
+  useMaster: 0
+  currentChoice: 65
+  startOnLoad: 0
+  channel: 31
+  rtVolume: 1
+  rtPitch: 1
+  baseVolume: 0.32291704
+  basePitch: 1
+  maxDistance: 50
+  falloffStart: 1
+  falloffPower: 0.5
+  lpStart: 2
+  lpPower: 0.6
+  spreadNear: 0.5
+  spreadFar: 0
+  spatialNear: 0.5
+  spatialFar: 1
+--- !u!114 &114100037438742456
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1068614057650626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 830588400, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  group: Circuit
+  sample: PlugIn
+  localSample: {fileID: 0}
+  useMaster: 0
+  currentChoice: 65
+  startOnLoad: 0
+  channel: 31
+  rtVolume: 1
+  rtPitch: 1
+  baseVolume: 0.32291704
+  basePitch: 1
+  maxDistance: 50
+  falloffStart: 1
+  falloffPower: 0.5
+  lpStart: 2
+  lpPower: 0.6
+  spreadNear: 0.5
+  spreadFar: 0
+  spatialNear: 0.5
+  spatialFar: 1
+--- !u!114 &114242070212472308
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1075574590421436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1838588586, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plugWireNoCurrent: {fileID: 114100037438742456}
+  plugWireCurrent: {fileID: 114993716147505100}
+  unplugWireNoCurrent: {fileID: 114532257884298460}
+  uplugWireCurrent: {fileID: 114578950655019492}
+  plugWireShortCircuit: {fileID: 114096553066457678}
+--- !u!114 &114532257884298460
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1077989862753054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 830588400, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  group: Circuit
+  sample: PlugOut
+  localSample: {fileID: 0}
+  useMaster: 0
+  currentChoice: 65
+  startOnLoad: 0
+  channel: 31
+  rtVolume: 1
+  rtPitch: 1
+  baseVolume: 0.32291704
+  basePitch: 1
+  maxDistance: 50
+  falloffStart: 1
+  falloffPower: 0.5
+  lpStart: 2
+  lpPower: 0.6
+  spreadNear: 0.5
+  spreadFar: 0
+  spatialNear: 0.5
+  spatialFar: 1
+--- !u!114 &114578950655019492
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1586227765655304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 830588400, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  group: Circuit
+  sample: SparkOff
+  localSample: {fileID: 0}
+  useMaster: 0
+  currentChoice: 65
+  startOnLoad: 0
+  channel: 31
+  rtVolume: 1
+  rtPitch: 1
+  baseVolume: 0.32291704
+  basePitch: 1
+  maxDistance: 50
+  falloffStart: 1
+  falloffPower: 0.5
+  lpStart: 2
+  lpPower: 0.6
+  spreadNear: 0.5
+  spreadFar: 0
+  spatialNear: 0.5
+  spatialFar: 1
+--- !u!114 &114993716147505100
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1397333952196198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 830588400, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  group: Circuit
+  sample: SparkOn
+  localSample: {fileID: 0}
+  useMaster: 0
+  currentChoice: 65
+  startOnLoad: 0
+  channel: 31
+  rtVolume: 1
+  rtPitch: 1
+  baseVolume: 0.32291704
+  basePitch: 1
+  maxDistance: 50
+  falloffStart: 1
+  falloffPower: 0.5
+  lpStart: 2
+  lpPower: 0.6
+  spreadNear: 0.5
+  spreadFar: 0
+  spatialNear: 0.5
+  spatialFar: 1

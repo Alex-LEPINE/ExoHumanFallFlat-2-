@@ -1,0 +1,438 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000013268898608}
+  m_IsPrefabParent: 1
+--- !u!1 &1000010060649840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013696666512}
+  - 114: {fileID: 114000013450176110}
+  m_Layer: 0
+  m_Name: OctaviumMW
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000010563095944
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000011944869500}
+  - 114: {fileID: 114000013966109846}
+  m_Layer: 0
+  m_Name: WindUpHill
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000010869554134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000012407319620}
+  - 114: {fileID: 114000012317681220}
+  m_Layer: 0
+  m_Name: WindLoop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000011587312594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000011203239478}
+  - 114: {fileID: 114000012645182838}
+  m_Layer: 0
+  m_Name: AdmiraltyBrassDay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000012059301148
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000011471305924}
+  - 114: {fileID: 114000012982748452}
+  m_Layer: 0
+  m_Name: HellBrass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000012427508308
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013766592568}
+  - 114: {fileID: 114000013327028008}
+  m_Layer: 0
+  m_Name: OpenDrone1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000013268898608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000012021942856}
+  - 114: {fileID: 114000011478438418}
+  m_Layer: 0
+  m_Name: Menu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000011203239478
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011587312594}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 0
+--- !u!4 &4000011471305924
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012059301148}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 1
+--- !u!4 &4000011944869500
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010563095944}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 4
+--- !u!4 &4000012021942856
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013268898608}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 4000011203239478}
+  - {fileID: 4000011471305924}
+  - {fileID: 4000013696666512}
+  - {fileID: 4000013766592568}
+  - {fileID: 4000011944869500}
+  - {fileID: 4000012407319620}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &4000012407319620
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010869554134}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 5
+--- !u!4 &4000013696666512
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010060649840}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 2
+--- !u!4 &4000013766592568
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012427508308}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 3
+--- !u!114 &114000011478438418
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013268898608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1823390706, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+    sounds:
+    - id: MenuDrones:Drone1
+      sample: AdmiraltyBrassDay
+      volume: 0.47068167
+      pitch: 1
+      useMaster: 0
+      maxDistance: 30
+      falloffStart: 30
+      falloffPower: 1
+      lpStart: 30
+      lpPower: 1
+      spreadNear: 1
+      spreadFar: 1
+      spatialNear: 0
+      spatialFar: 0
+    - id: MenuDrones:Drone2
+      sample: HellBrass
+      volume: 0.5011872
+      pitch: 1
+      useMaster: 0
+      maxDistance: 30
+      falloffStart: 30
+      falloffPower: 1
+      lpStart: 30
+      lpPower: 1
+      spreadNear: 1
+      spreadFar: 1
+      spatialNear: 0
+      spatialFar: 0
+    - id: MenuDrones:Drone3
+      sample: OctaviumMW
+      volume: 0.5011872
+      pitch: 1
+      useMaster: 0
+      maxDistance: 30
+      falloffStart: 30
+      falloffPower: 1
+      lpStart: 30
+      lpPower: 1
+      spreadNear: 1
+      spreadFar: 1
+      spatialNear: 0
+      spatialFar: 0
+    - id: MenuDrones:Drone4
+      sample: OpenDrone1
+      volume: 0.5011872
+      pitch: 1
+      useMaster: 0
+      maxDistance: 30
+      falloffStart: 30
+      falloffPower: 1
+      lpStart: 30
+      lpPower: 1
+      spreadNear: 1
+      spreadFar: 1
+      spatialNear: 0
+      spatialFar: 0
+    - id: MenuDrones:Drone5
+      sample: WindUpHill
+      volume: 0.30326197
+      pitch: 1
+      useMaster: 0
+      maxDistance: 30
+      falloffStart: 30
+      falloffPower: 1
+      lpStart: 30
+      lpPower: 1
+      spreadNear: 1
+      spreadFar: 1
+      spatialNear: 0
+      spatialFar: 0
+    - id: MenuDrones:Drone6
+      sample: WindLoop
+      volume: 0.30326205
+      pitch: 1
+      useMaster: 0
+      maxDistance: 30
+      falloffStart: 30
+      falloffPower: 1
+      lpStart: 30
+      lpPower: 1
+      spreadNear: 1
+      spreadFar: 1
+      spatialNear: 0
+      spatialFar: 0
+    grains: []
+  ambience:
+    zones: []
+  reverb:
+    zones: []
+--- !u!114 &114000012317681220
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010869554134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Wind
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: e30288fbd03d93847b99ea5be286004f, type: 3}
+--- !u!114 &114000012645182838
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011587312594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: MenuDrones
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: 3e662ccc3dd6b7f41802dfb399b2b61f, type: 3}
+--- !u!114 &114000012982748452
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012059301148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: MenuDrones
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: b1b208cb66b80eb468a9c13d46cf30fd, type: 3}
+--- !u!114 &114000013327028008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012427508308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: MenuDrones
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: 290b560d0053c2a418899e049906969a, type: 3}
+--- !u!114 &114000013450176110
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010060649840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: MenuDrones
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: dfec2356f9e8ec74cb488e43398033a8, type: 3}
+--- !u!114 &114000013966109846
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010563095944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Wind
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: a4ad7b2b34272544881ced7f87b45d26, type: 3}

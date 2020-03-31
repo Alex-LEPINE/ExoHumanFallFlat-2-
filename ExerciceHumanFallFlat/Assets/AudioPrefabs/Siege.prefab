@@ -1,0 +1,2951 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000013268898608}
+  m_IsPrefabParent: 1
+--- !u!1 &1000010167196580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013684134738}
+  - 114: {fileID: 114000014068039214}
+  m_Layer: 0
+  m_Name: Meadow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000010246415486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000010342681444}
+  - 114: {fileID: 114000013347941662}
+  m_Layer: 0
+  m_Name: HintOpen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000010310793290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000010904100822}
+  - 114: {fileID: 114000011391373310}
+  m_Layer: 0
+  m_Name: Rock2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000010643399238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000012549401540}
+  - 114: {fileID: 114000013433685662}
+  m_Layer: 0
+  m_Name: Windmill
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000010791379366
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013225026438}
+  - 114: {fileID: 114000012668687080}
+  m_Layer: 0
+  m_Name: River2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000010900737064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000011098045922}
+  - 114: {fileID: 114000010316338688}
+  m_Layer: 0
+  m_Name: Wind2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000011315685048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000011213950124}
+  - 114: {fileID: 114000012785225846}
+  m_Layer: 0
+  m_Name: InnYard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000011325200162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000011975883412}
+  - 114: {fileID: 114000010124879580}
+  m_Layer: 0
+  m_Name: River1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000011439557286
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000012988463626}
+  - 114: {fileID: 114000010320310510}
+  m_Layer: 0
+  m_Name: ChurchYard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000011453728036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000010042568778}
+  - 114: {fileID: 114000010497132542}
+  m_Layer: 0
+  m_Name: ExitOn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000011525080538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013081696042}
+  - 114: {fileID: 114000012474332872}
+  m_Layer: 0
+  m_Name: Blacksmith
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000011656732798
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000011147342004}
+  - 114: {fileID: 114000012862009450}
+  m_Layer: 0
+  m_Name: Portcullis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000011690616420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000010880891410}
+  - 114: {fileID: 114000010772084210}
+  m_Layer: 0
+  m_Name: Waterfall1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000011749985810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000011332471382}
+  - 114: {fileID: 114000010679452028}
+  m_Layer: 0
+  m_Name: CatapultClick
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000011958490064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013502421216}
+  - 114: {fileID: 114000013689509346}
+  m_Layer: 0
+  m_Name: BridgeFall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000011978551462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000011587590670}
+  - 114: {fileID: 114000013147185912}
+  m_Layer: 0
+  m_Name: Prison
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000012072536344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000011667257300}
+  - 114: {fileID: 114000012975381436}
+  m_Layer: 0
+  m_Name: CatapultRelease
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000012169520064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013144475206}
+  - 114: {fileID: 114000011511975038}
+  m_Layer: 0
+  m_Name: Meadow2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000012239010162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000012838493960}
+  - 114: {fileID: 114000012129404430}
+  m_Layer: 0
+  m_Name: ExitWell
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000012383617076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000012410382794}
+  - 114: {fileID: 114000010767087310}
+  m_Layer: 0
+  m_Name: StartupDoorOpen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000012386889276
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000011833324398}
+  - 114: {fileID: 114000013702239224}
+  m_Layer: 0
+  m_Name: CatapultYard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000012453891442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000011123808642}
+  - 114: {fileID: 114000011543431170}
+  m_Layer: 0
+  m_Name: Prison2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000012516387684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000012168366938}
+  - 114: {fileID: 114000013949233816}
+  m_Layer: 0
+  m_Name: RoomTone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000012881478184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000011569512776}
+  - 114: {fileID: 114000011888543754}
+  m_Layer: 0
+  m_Name: Rock1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000013050014714
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013422646026}
+  - 114: {fileID: 114000014060642474}
+  m_Layer: 0
+  m_Name: CartYard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000013241445660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000010662210532}
+  - 114: {fileID: 114000010125717428}
+  m_Layer: 0
+  m_Name: ChurchYardLow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000013268898608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000012021942856}
+  - 114: {fileID: 114000011478438418}
+  m_Layer: 0
+  m_Name: Siege
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000013418582728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000011840614536}
+  - 114: {fileID: 114000012495111576}
+  m_Layer: 0
+  m_Name: WindmillSails
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000013436922560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000012090686162}
+  - 114: {fileID: 114000012254794300}
+  m_Layer: 0
+  m_Name: MountainCrows2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000013528365330
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000012204851856}
+  - 114: {fileID: 114000013948047222}
+  m_Layer: 0
+  m_Name: CartYard2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000013647120170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000010916216114}
+  - 114: {fileID: 114000010278445650}
+  m_Layer: 0
+  m_Name: BreakLock
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000013681927190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000012357628114}
+  - 114: {fileID: 114000012816209904}
+  m_Layer: 0
+  m_Name: MountainCrows
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000014208545252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000012630564504}
+  - 114: {fileID: 114000013015455118}
+  m_Layer: 0
+  m_Name: TutorialScreenClose
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000014284878260
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000012557857828}
+  - 114: {fileID: 114000012987450696}
+  m_Layer: 0
+  m_Name: Waterfall2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010042568778
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011453728036}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 4
+--- !u!4 &4000010342681444
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010246415486}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 8
+--- !u!4 &4000010662210532
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013241445660}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 23
+--- !u!4 &4000010880891410
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011690616420}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 15
+--- !u!4 &4000010904100822
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010310793290}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 7
+--- !u!4 &4000010916216114
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013647120170}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 0
+--- !u!4 &4000011098045922
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010900737064}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 12
+--- !u!4 &4000011123808642
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012453891442}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 25
+--- !u!4 &4000011147342004
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011656732798}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 31
+--- !u!4 &4000011213950124
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011315685048}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 30
+--- !u!4 &4000011332471382
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011749985810}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 1
+--- !u!4 &4000011569512776
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012881478184}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 6
+--- !u!4 &4000011587590670
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011978551462}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 24
+--- !u!4 &4000011667257300
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012072536344}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 2
+--- !u!4 &4000011833324398
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012386889276}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 26
+--- !u!4 &4000011840614536
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013418582728}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 5
+--- !u!4 &4000011975883412
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011325200162}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 17
+--- !u!4 &4000012021942856
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013268898608}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 4000010916216114}
+  - {fileID: 4000011332471382}
+  - {fileID: 4000011667257300}
+  - {fileID: 4000012410382794}
+  - {fileID: 4000010042568778}
+  - {fileID: 4000011840614536}
+  - {fileID: 4000011569512776}
+  - {fileID: 4000010904100822}
+  - {fileID: 4000010342681444}
+  - {fileID: 4000012630564504}
+  - {fileID: 4000012357628114}
+  - {fileID: 4000012090686162}
+  - {fileID: 4000011098045922}
+  - {fileID: 4000013684134738}
+  - {fileID: 4000013144475206}
+  - {fileID: 4000010880891410}
+  - {fileID: 4000012557857828}
+  - {fileID: 4000011975883412}
+  - {fileID: 4000013225026438}
+  - {fileID: 4000013422646026}
+  - {fileID: 4000012838493960}
+  - {fileID: 4000012168366938}
+  - {fileID: 4000012988463626}
+  - {fileID: 4000010662210532}
+  - {fileID: 4000011587590670}
+  - {fileID: 4000011123808642}
+  - {fileID: 4000011833324398}
+  - {fileID: 4000012549401540}
+  - {fileID: 4000012204851856}
+  - {fileID: 4000013081696042}
+  - {fileID: 4000011213950124}
+  - {fileID: 4000011147342004}
+  - {fileID: 4000013502421216}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &4000012090686162
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013436922560}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 11
+--- !u!4 &4000012168366938
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012516387684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 21
+--- !u!4 &4000012204851856
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013528365330}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 28
+--- !u!4 &4000012357628114
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013681927190}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 10
+--- !u!4 &4000012410382794
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012383617076}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 3
+--- !u!4 &4000012549401540
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010643399238}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 27
+--- !u!4 &4000012557857828
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014284878260}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 16
+--- !u!4 &4000012630564504
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014208545252}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 9
+--- !u!4 &4000012838493960
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012239010162}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 20
+--- !u!4 &4000012988463626
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011439557286}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 22
+--- !u!4 &4000013081696042
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011525080538}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 29
+--- !u!4 &4000013144475206
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012169520064}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 14
+--- !u!4 &4000013225026438
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010791379366}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 18
+--- !u!4 &4000013422646026
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013050014714}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 19
+--- !u!4 &4000013502421216
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011958490064}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 32
+--- !u!4 &4000013684134738
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010167196580}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012021942856}
+  m_RootOrder: 13
+--- !u!114 &114000010124879580
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011325200162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Water
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: f4f75d4b82b84224e8bb88eb0e6eef7d, type: 3}
+--- !u!114 &114000010125717428
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013241445660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Amb
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: f4127ed1691d3d345a5f6aff9330f73d, type: 3}
+--- !u!114 &114000010278445650
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013647120170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: FX
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: bfd15918984423b46a726e01771cf9db, type: 3}
+--- !u!114 &114000010316338688
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010900737064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Amb
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: d44cdc30a11a76b4bad658627f7fdd98, type: 3}
+--- !u!114 &114000010320310510
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011439557286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Amb
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: d771e2a5271e5b84f8e490aad4ac7642, type: 3}
+--- !u!114 &114000010497132542
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011453728036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Main
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: 01ccdc7274e75444ba1a752c24860250, type: 3}
+--- !u!114 &114000010679452028
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011749985810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Catapult
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: 870dc2c169c4e3b43b11218017cff25a, type: 3}
+  - {fileID: 8300000, guid: d1019115728817f449f62640bf35b22d, type: 3}
+  - {fileID: 8300000, guid: abec8e67d0a38de499793e8314ad9853, type: 3}
+  - {fileID: 8300000, guid: c91d759a8ac43fc448d8dfbb6aa39b30, type: 3}
+  - {fileID: 8300000, guid: 2e78137aa8523c547aa6bb26e348b72b, type: 3}
+  - {fileID: 8300000, guid: 2b1f67142ac79664c86569ed5c6fe9c9, type: 3}
+  - {fileID: 8300000, guid: af563deec345ab74384f5a2bf85549dc, type: 3}
+  - {fileID: 8300000, guid: f6ee4c1087941f847b5ed29fa7652640, type: 3}
+  - {fileID: 8300000, guid: 834d4256ae692354c9576667e444e208, type: 3}
+--- !u!114 &114000010767087310
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012383617076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Main
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: 04afdf4bc2fb3404b8b9b2cd7d203c16, type: 3}
+--- !u!114 &114000010772084210
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011690616420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Water
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: a79ba2fc50fd0064980b3d1f4de42e07, type: 3}
+--- !u!114 &114000011391373310
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010310793290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: FX
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: 10c3f639cacf02a46a2dad89f98b4f96, type: 3}
+--- !u!114 &114000011478438418
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013268898608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1823390706, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+    sounds:
+    - id: SFX:BreakLock
+      sample: BreakLock
+      volume: 1
+      pitch: 1
+      useMaster: 0
+      maxDistance: 50
+      falloffStart: 1
+      falloffPower: 0.5
+      lpStart: 2
+      lpPower: 0.6
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: Catapult:CatapultRatchet
+      sample: CatapultClick
+      volume: 1
+      pitch: 1
+      useMaster: 0
+      maxDistance: 50
+      falloffStart: 1
+      falloffPower: 0.5
+      lpStart: 2
+      lpPower: 0.6
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: Catapult:CatapultRelease
+      sample: CatapultRelease
+      volume: 1
+      pitch: 1
+      useMaster: 0
+      maxDistance: 50
+      falloffStart: 1
+      falloffPower: 0.5
+      lpStart: 2
+      lpPower: 0.6
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: SFX:ExitDoorRelease
+      sample: StartupDoorOpen
+      volume: 1
+      pitch: 1
+      useMaster: 0
+      maxDistance: 100
+      falloffStart: 3.4315765
+      falloffPower: 0.8
+      lpStart: 4
+      lpPower: 0.8
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: Prefab:ExitSign
+      sample: ExitOn
+      volume: 1
+      pitch: 1
+      useMaster: 0
+      maxDistance: 100
+      falloffStart: 2
+      falloffPower: 0.8
+      lpStart: 4
+      lpPower: 0.8
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: SFX:WindmillSail
+      sample: WindmillSails
+      volume: 1
+      pitch: 1.5
+      useMaster: 0
+      maxDistance: 50
+      falloffStart: 3
+      falloffPower: 0.6
+      lpStart: 3
+      lpPower: 0.8
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: SFX:Column3Crash
+      sample: Rock1
+      volume: 0.64430416
+      pitch: 0.5
+      useMaster: 0
+      maxDistance: 50
+      falloffStart: 6.616418
+      falloffPower: 0.7368421
+      lpStart: 2
+      lpPower: 0.6
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: SFX:Column1Crash
+      sample: Rock1
+      volume: 0.568258
+      pitch: 0.7
+      useMaster: 0
+      maxDistance: 50
+      falloffStart: 6.616417
+      falloffPower: 0.7631579
+      lpStart: 2
+      lpPower: 0.6
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: SFX:Column2Crash
+      sample: Rock2
+      volume: 0.5336699
+      pitch: 0.7
+      useMaster: 0
+      maxDistance: 50
+      falloffStart: 7.3708167
+      falloffPower: 0.7631579
+      lpStart: 2
+      lpPower: 0.6
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: SFX:StoneBridgeCrash
+      sample: Rock1
+      volume: 0.68606246
+      pitch: 0.5
+      useMaster: 0
+      maxDistance: 50
+      falloffStart: 7.3708167
+      falloffPower: 0.65789473
+      lpStart: 2
+      lpPower: 0.6
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: Tutorial:HintOpen
+      sample: HintOpen
+      volume: 1
+      pitch: 1
+      useMaster: 0
+      maxDistance: 100
+      falloffStart: 5
+      falloffPower: 0.7
+      lpStart: 5
+      lpPower: 0.8
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: Tutorial:HintClose
+      sample: TutorialScreenClose
+      volume: 1
+      pitch: 1
+      useMaster: 0
+      maxDistance: 100
+      falloffStart: 5
+      falloffPower: 0.7
+      lpStart: 5
+      lpPower: 0.8
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: Emitters:MountainCrows
+      sample: MountainCrows
+      volume: 1
+      pitch: 1
+      useMaster: 0
+      maxDistance: 50
+      falloffStart: 3
+      falloffPower: 0.868421
+      lpStart: 3
+      lpPower: 0.8
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: Emitters:MountainCrows2
+      sample: MountainCrows2
+      volume: 1
+      pitch: 1
+      useMaster: 0
+      maxDistance: 50
+      falloffStart: 3
+      falloffPower: 0.8631579
+      lpStart: 3
+      lpPower: 0.8
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: Emitters:MountainWind
+      sample: Wind2
+      volume: 1
+      pitch: 1
+      useMaster: 0
+      maxDistance: 50
+      falloffStart: 5.3313527
+      falloffPower: 0.6
+      lpStart: 3
+      lpPower: 0.8
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: Emitters:Meadow1
+      sample: Meadow
+      volume: 1
+      pitch: 1
+      useMaster: 0
+      maxDistance: 50
+      falloffStart: 3
+      falloffPower: 0.6
+      lpStart: 3
+      lpPower: 0.8
+      spreadNear: 0.7105263
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: Emitters:Meadow2
+      sample: Meadow2
+      volume: 0.6050876
+      pitch: 1
+      useMaster: 0
+      maxDistance: 50
+      falloffStart: 3
+      falloffPower: 0.6
+      lpStart: 3
+      lpPower: 0.8
+      spreadNear: 0.7368421
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: Emitters:Waterfall
+      sample: Waterfall1
+      volume: 0.68606246
+      pitch: 1
+      useMaster: 0
+      maxDistance: 63.04967
+      falloffStart: 7.5112033
+      falloffPower: 0.73157895
+      lpStart: 3
+      lpPower: 0.8
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: Emitters:WaterfallEcho
+      sample: Waterfall2
+      volume: 0.68606246
+      pitch: 1
+      useMaster: 0
+      maxDistance: 50
+      falloffStart: 10.38455
+      falloffPower: 0.78421056
+      lpStart: 3
+      lpPower: 0.8
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: Emitters:AlleyWaterfall2
+      sample: Waterfall1
+      volume: 0.6050876
+      pitch: 1
+      useMaster: 0
+      maxDistance: 35.310246
+      falloffStart: 4.377698
+      falloffPower: 0.7052632
+      lpStart: 3
+      lpPower: 0.8
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: Emitters:AlleyWaterfall1
+      sample: Waterfall2
+      volume: 0.64430416
+      pitch: 1
+      useMaster: 0
+      maxDistance: 33.97154
+      falloffStart: 4.147625
+      falloffPower: 0.7052632
+      lpStart: 3
+      lpPower: 0.8
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: Emitters:CartRiver
+      sample: River1
+      volume: 0.47068167
+      pitch: 1
+      useMaster: 0
+      maxDistance: 50
+      falloffStart: 3.929643
+      falloffPower: 0.75789475
+      lpStart: 3
+      lpPower: 0.8
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: Emitters:BlacksmithRiver
+      sample: River1
+      volume: 0.47068167
+      pitch: 1
+      useMaster: 0
+      maxDistance: 50
+      falloffStart: 7.116446
+      falloffPower: 0.78421056
+      lpStart: 3
+      lpPower: 0.8
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: Emitters:InnRiver1
+      sample: River2
+      volume: 0.41512775
+      pitch: 1
+      useMaster: 0
+      maxDistance: 50
+      falloffStart: 6.0523496
+      falloffPower: 0.8105263
+      lpStart: 3
+      lpPower: 0.8
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: Emitters:InnRiver2
+      sample: River2
+      volume: 0.47068167
+      pitch: 1
+      useMaster: 0
+      maxDistance: 50
+      falloffStart: 6.742435
+      falloffPower: 0.78421056
+      lpStart: 3
+      lpPower: 0.8
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: Emitters:ChurchTowerCrows
+      sample: MountainCrows2
+      volume: 1
+      pitch: 1
+      useMaster: 0
+      maxDistance: 54.0183
+      falloffStart: 3
+      falloffPower: 0.9157895
+      lpStart: 3
+      lpPower: 0.8
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: Emitters:CartYardBell
+      sample: CartYard
+      volume: 0.47068155
+      pitch: 1
+      useMaster: 0
+      maxDistance: 77.55858
+      falloffStart: 7.927858
+      falloffPower: 0.8105263
+      lpStart: 3
+      lpPower: 0.8
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: Emitters:CartYardCrickets
+      sample: Meadow2
+      volume: 1
+      pitch: 1
+      useMaster: 0
+      maxDistance: 50
+      falloffStart: 4.6205344
+      falloffPower: 0.78421056
+      lpStart: 3
+      lpPower: 0.8
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: Emitters:ExitBirds
+      sample: ExitWell
+      volume: 1
+      pitch: 1
+      useMaster: 0
+      maxDistance: 50
+      falloffStart: 3
+      falloffPower: 0.8368421
+      lpStart: 3
+      lpPower: 0.8
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: Emitters:ExitCrows
+      sample: MountainCrows2
+      volume: 1
+      pitch: 1
+      useMaster: 0
+      maxDistance: 50
+      falloffStart: 3
+      falloffPower: 0.88947374
+      lpStart: 3
+      lpPower: 0.8
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: Emitters:PortcullisWaterfall
+      sample: Waterfall2
+      volume: 0.38893685
+      pitch: 1
+      useMaster: 0
+      maxDistance: 50
+      falloffStart: 3
+      falloffPower: 0.73157895
+      lpStart: 3
+      lpPower: 0.8
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: Emitters:HightWallWaterfall
+      sample: Waterfall1
+      volume: 0.5682578
+      pitch: 0.956945
+      useMaster: 0
+      maxDistance: 50
+      falloffStart: 3
+      falloffPower: 0.75789475
+      lpStart: 3
+      lpPower: 0.8
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: Emitters:BlasmithWaterfall
+      sample: Waterfall2
+      volume: 0.68606246
+      pitch: 1
+      useMaster: 0
+      maxDistance: 50
+      falloffStart: 3
+      falloffPower: 0.8105263
+      lpStart: 3
+      lpPower: 0.8
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    - id: Amb:RoomTone
+      sample: RoomTone
+      volume: 1
+      pitch: 1
+      useMaster: 0
+      maxDistance: 300.00003
+      falloffStart: 29.999996
+      falloffPower: 1
+      lpStart: 29.999996
+      lpPower: 1
+      spreadNear: 0
+      spreadFar: 0
+      spatialNear: 0
+      spatialFar: 1
+    - id: Amb:ChurchYard
+      sample: ChurchYard
+      volume: 1
+      pitch: 1
+      useMaster: 0
+      maxDistance: 300.00003
+      falloffStart: 29.999996
+      falloffPower: 1
+      lpStart: 29.999996
+      lpPower: 1
+      spreadNear: 0
+      spreadFar: 0
+      spatialNear: 0
+      spatialFar: 1
+    - id: Amb:ChurchYardLow
+      sample: ChurchYardLow
+      volume: 1
+      pitch: 1
+      useMaster: 0
+      maxDistance: 300.00003
+      falloffStart: 29.999996
+      falloffPower: 1
+      lpStart: 29.999996
+      lpPower: 1
+      spreadNear: 0
+      spreadFar: 0
+      spatialNear: 0
+      spatialFar: 1
+    - id: Amb:Prison
+      sample: Prison
+      volume: 1
+      pitch: 1
+      useMaster: 0
+      maxDistance: 300.00003
+      falloffStart: 29.999996
+      falloffPower: 1
+      lpStart: 29.999996
+      lpPower: 1
+      spreadNear: 0
+      spreadFar: 0
+      spatialNear: 0
+      spatialFar: 1
+    - id: Amb:Prison2
+      sample: Prison2
+      volume: 1
+      pitch: 1
+      useMaster: 0
+      maxDistance: 300.00003
+      falloffStart: 29.999996
+      falloffPower: 1
+      lpStart: 29.999996
+      lpPower: 1
+      spreadNear: 0
+      spreadFar: 0
+      spatialNear: 0
+      spatialFar: 1
+    - id: Amb:Catapult
+      sample: CatapultYard
+      volume: 1
+      pitch: 1
+      useMaster: 0
+      maxDistance: 300.00003
+      falloffStart: 29.999996
+      falloffPower: 1
+      lpStart: 29.999996
+      lpPower: 1
+      spreadNear: 0
+      spreadFar: 0
+      spatialNear: 0
+      spatialFar: 1
+    - id: Amb:Moutain
+      sample: Wind2
+      volume: 1
+      pitch: 1
+      useMaster: 0
+      maxDistance: 300.00003
+      falloffStart: 29.999996
+      falloffPower: 1
+      lpStart: 29.999996
+      lpPower: 1
+      spreadNear: 0
+      spreadFar: 0
+      spatialNear: 0
+      spatialFar: 1
+    - id: Amb:Windmill
+      sample: Windmill
+      volume: 1
+      pitch: 1
+      useMaster: 0
+      maxDistance: 300.00003
+      falloffStart: 29.999996
+      falloffPower: 1
+      lpStart: 29.999996
+      lpPower: 1
+      spreadNear: 0
+      spreadFar: 0
+      spatialNear: 0
+      spatialFar: 1
+    - id: Amb:CartYard
+      sample: CartYard2
+      volume: 1
+      pitch: 1
+      useMaster: 0
+      maxDistance: 300.00003
+      falloffStart: 29.999996
+      falloffPower: 1
+      lpStart: 29.999996
+      lpPower: 1
+      spreadNear: 0
+      spreadFar: 0
+      spatialNear: 0
+      spatialFar: 1
+    - id: Amb:Blacksmith
+      sample: Blacksmith
+      volume: 1
+      pitch: 1
+      useMaster: 0
+      maxDistance: 300.00003
+      falloffStart: 29.999996
+      falloffPower: 1
+      lpStart: 29.999996
+      lpPower: 1
+      spreadNear: 0
+      spreadFar: 0
+      spatialNear: 0
+      spatialFar: 1
+    - id: Amb:InnYard
+      sample: InnYard
+      volume: 1
+      pitch: 1
+      useMaster: 0
+      maxDistance: 300.00003
+      falloffStart: 29.999996
+      falloffPower: 1
+      lpStart: 29.999996
+      lpPower: 1
+      spreadNear: 0
+      spreadFar: 0
+      spatialNear: 0
+      spatialFar: 1
+    - id: Amb:Portcullis
+      sample: Portcullis
+      volume: 1
+      pitch: 1
+      useMaster: 0
+      maxDistance: 300.00003
+      falloffStart: 29.999996
+      falloffPower: 1
+      lpStart: 29.999996
+      lpPower: 1
+      spreadNear: 0
+      spreadFar: 0
+      spatialNear: 0
+      spatialFar: 1
+    - id: SFX:BridgeCrash
+      sample: BridgeFall
+      volume: 1
+      pitch: 0.5
+      useMaster: 0
+      maxDistance: 50
+      falloffStart: 5.9392295
+      falloffPower: 0.68421054
+      lpStart: 2
+      lpPower: 0.6
+      spreadNear: 0.5
+      spreadFar: 0
+      spatialNear: 0.5
+      spatialFar: 1
+    grains: []
+  ambience:
+    zones:
+    - name: HighTrigger1
+      sources:
+      - source: Moutain
+        volume: 0.19539303
+      - source: Windmill
+        volume: 0.5
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: HighTrigger2
+      sources:
+      - source: Moutain
+        volume: 0.19539303
+      - source: Windmill
+        volume: 0.5
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: PrisonTrigger
+      sources:
+      - source: Prison
+        volume: 1
+      - source: ChurchYard
+        volume: 0.642778
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: Prison2Trigger
+      sources:
+      - source: Prison
+        volume: 0.2
+      - source: Prison2
+        volume: 0.8
+      - source: ChurchYardLow
+        volume: 0.3
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: CatapultYardTrigger
+      sources:
+      - source: Catapult
+        volume: 1
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: MountainTrigger
+      sources:
+      - source: Moutain
+        volume: 0.1618419
+      - source: Windmill
+        volume: 0.5
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: BridgeTrigger
+      sources:
+      - source: Catapult
+        volume: 0.5
+      - source: Windmill
+        volume: 0.5
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: WindmillTrigger
+      sources:
+      - source: Windmill
+        volume: 1
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: ExitHighTrigger
+      sources:
+      - source: Windmill
+        volume: 0.5
+      - source: Moutain
+        volume: 0.0811131
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: ExitLowTrigger
+      sources:
+      - source: ChurchYardLow
+        volume: 0.3865824
+      - source: Moutain
+        volume: 0
+      - source: Windmill
+        volume: 0.18782665
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: ExitHouseTrigger
+      sources:
+      - source: RoomTone
+        volume: 0.5
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: WellTrigger
+      sources:
+      - source: ChurchYard
+        volume: 0.38986045
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: -5.3333335
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: WellTrigger
+      sources:
+      - source: ChurchYard
+        volume: 0.47068167
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: -5.3333335
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: WindmillCaveTrigger
+      sources:
+      - source: RoomTone
+        volume: 0.5
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: CatapultTrigger
+      sources:
+      - source: ChurchYardLow
+        volume: 1
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: ExitGateTrigger
+      sources:
+      - source: ChurchYard
+        volume: 0.7305271
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: ExitCaveTrigger
+      sources:
+      - source: RoomTone
+        volume: 0.5
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: GateTrigger
+      sources:
+      - source: ChurchYard
+        volume: 0.64430416
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: EntryYardTrigger
+      sources:
+      - source: ChurchYardLow
+        volume: 1
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: ChurchGateTriger
+      sources:
+      - source: ChurchYard
+        volume: 0.5682578
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: AlleyTrigger
+      sources:
+      - source: ChurchYard
+        volume: 0.16010098
+      - source: ChurchYardLow
+        volume: 0.3
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: AlleyHouseTrigger
+      sources:
+      - source: RoomTone
+        volume: 0.5
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: CartYardTrigger
+      sources:
+      - source: CartYard
+        volume: 0.25118864
+      - source: RoomTone
+        volume: 0.5
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: CartHouse1Trigger
+      sources:
+      - source: RoomTone
+        volume: 0.5
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: CartGateTrigger
+      sources:
+      - source: ChurchYard
+        volume: 0.64430416
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: BellTowerGateTrigger
+      sources:
+      - source: ChurchYard
+        volume: 0.68606246
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: CartHouse1Trigger
+      sources:
+      - source: RoomTone
+        volume: 0.5
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: CartHouse2Trigger
+      sources:
+      - source: RoomTone
+        volume: 0.5
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: BlacksmithTrigger
+      sources:
+      - source: ChurchYardLow
+        volume: 0.5
+      - source: Blacksmith
+        volume: 0.25118864
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: BlacksmithHouseTrigger
+      sources:
+      - source: RoomTone
+        volume: 0.5
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: WheelTrigger
+      sources:
+      - source: ChurchYard
+        volume: 0.24848665
+      - source: ChurchYardLow
+        volume: 0.3
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: InnTrigger
+      sources:
+      - source: InnYard
+        volume: 1
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: InnTrigger2
+      sources:
+      - source: InnYard
+        volume: 0.5
+      - source: ChurchYardLow
+        volume: 0.5
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: InnHouseTrigger
+      sources:
+      - source: RoomTone
+        volume: 0.5
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: InnHouseTrigger2
+      sources:
+      - source: RoomTone
+        volume: 0.5
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: PortcullisGateTrigger
+      sources:
+      - source: ChurchYard
+        volume: 0.68606246
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: PortcullisTrigger
+      sources:
+      - source: Portcullis
+        volume: 0.38986033
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: ChurchTowerTrigger
+      sources:
+      - source: ChurchYard
+        volume: 0.77787364
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: Tower1Trigger
+      sources:
+      - source: ChurchYard
+        volume: 0.7305271
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+    - name: Tower1Trigger (1)
+      sources:
+      - source: ChurchYard
+        volume: 0.6050876
+      mainVerbLevel: 0
+      musicLevel: 0
+      ambienceLevel: 0
+      effectsLevel: 0
+      physicsLevel: 0
+      characterLevel: 0
+  reverb:
+    zones:
+    - id: GeneralOutside
+      level: -6
+      delay: 1
+      diffusion: 0.7
+      lowPass: 22000
+      highPass: 10
+    - id: PrisonRoom1
+      level: -6
+      delay: 0.4
+      diffusion: 0.4
+      lowPass: 22000
+      highPass: 10
+    - id: PrisonRoom2
+      level: -6
+      delay: 0.5
+      diffusion: 0.3
+      lowPass: 22000
+      highPass: 10
+    - id: PrisonMountain
+      level: -6
+      delay: 1.5
+      diffusion: 0.4
+      lowPass: 22000
+      highPass: 10
+    - id: EntryYard
+      level: -6
+      delay: 1.2
+      diffusion: 0.6
+      lowPass: 22000
+      highPass: 10
+    - id: EntryGate
+      level: -3
+      delay: 1
+      diffusion: 0.4
+      lowPass: 22000
+      highPass: 10
+    - id: EntryTower
+      level: 3
+      delay: 1
+      diffusion: 0.4
+      lowPass: 22000
+      highPass: 10
+    - id: Alley
+      level: 0
+      delay: 1.4
+      diffusion: 0.3
+      lowPass: 22000
+      highPass: 10
+    - id: AlleyHouse
+      level: -3
+      delay: 0.2
+      diffusion: 0.7
+      lowPass: 22000
+      highPass: 10
+    - id: Alley2
+      level: 0
+      delay: 1.4
+      diffusion: 0.3
+      lowPass: 22000
+      highPass: 10
+    - id: Church
+      level: -3
+      delay: 1
+      diffusion: 0.4
+      lowPass: 22000
+      highPass: 10
+    - id: CartHouse1
+      level: -3
+      delay: 0.2
+      diffusion: 0.7
+      lowPass: 22000
+      highPass: 10
+    - id: CartHouse2
+      level: -3
+      delay: 0.2
+      diffusion: 0.7
+      lowPass: 22000
+      highPass: 10
+    - id: CartHouse3
+      level: -3
+      delay: 0.4
+      diffusion: 0.4
+      lowPass: 22000
+      highPass: 10
+    - id: CartYard
+      level: -6
+      delay: 1.2
+      diffusion: 0.6
+      lowPass: 22000
+      highPass: 10
+    - id: CartGate
+      level: -3
+      delay: 1
+      diffusion: 0.4
+      lowPass: 22000
+      highPass: 10
+    - id: BellTower
+      level: 0
+      delay: 1
+      diffusion: 0.3
+      lowPass: 22000
+      highPass: 10
+    - id: Wheel
+      level: 0
+      delay: 1.4
+      diffusion: 0.3
+      lowPass: 22000
+      highPass: 10
+    - id: Blacsmith
+      level: -3
+      delay: 0.3
+      diffusion: 0.7
+      lowPass: 22000
+      highPass: 10
+    - id: BlacsmithShed
+      level: -3
+      delay: 0.4
+      diffusion: 0.5
+      lowPass: 22000
+      highPass: 10
+    - id: Inn
+      level: -3
+      delay: 0.3
+      diffusion: 0.7
+      lowPass: 22000
+      highPass: 10
+    - id: InnBalcony
+      level: -3
+      delay: 0.4
+      diffusion: 0.5
+      lowPass: 22000
+      highPass: 10
+    - id: InnYard
+      level: -6
+      delay: 1.2
+      diffusion: 0.6
+      lowPass: 22000
+      highPass: 10
+    - id: Portcullis
+      level: 0
+      delay: 1
+      diffusion: 0.4
+      lowPass: 22000
+      highPass: 10
+    - id: PortcullisTower
+      level: 3
+      delay: 1
+      diffusion: 0.4
+      lowPass: 22000
+      highPass: 10
+    - id: WindmillCave
+      level: 0
+      delay: 1.3
+      diffusion: 0.3
+      lowPass: 22000
+      highPass: 10
+    - id: Cave
+      level: -0.00000007881606
+      delay: 2
+      diffusion: 0.2
+      lowPass: 1124.688
+      highPass: 164.22015
+    - id: BlacsmithShed (1)
+      level: -3
+      delay: 0.4
+      diffusion: 0.5
+      lowPass: 22000
+      highPass: 10
+    - id: Blacsmith (1)
+      level: -3
+      delay: 0.3
+      diffusion: 0.7
+      lowPass: 22000
+      highPass: 10
+    - id: ExitPorcullis
+      level: -3
+      delay: 1
+      diffusion: 0.4
+      lowPass: 22000
+      highPass: 10
+    - id: ExitCave
+      level: 0
+      delay: 1.3
+      diffusion: 0.3
+      lowPass: 22000
+      highPass: 10
+    - id: Catapult
+      level: -3
+      delay: 1
+      diffusion: 0.7
+      lowPass: 22000
+      highPass: 10
+--- !u!114 &114000011511975038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012169520064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Emitters
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: ad16c419c2df23040b5413fa72f01258, type: 3}
+--- !u!114 &114000011543431170
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012453891442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Amb
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: e9f84799dc25a4e4abe3397b0345dd78, type: 3}
+--- !u!114 &114000011888543754
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012881478184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: FX
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: b1d73af8bd7e1794b84369046957ac47, type: 3}
+--- !u!114 &114000012129404430
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012239010162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Emitters
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: 856ebdd91d012cc44831a07d0321fb34, type: 3}
+--- !u!114 &114000012254794300
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013436922560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Emitters
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: 870ccb949e9f67440a8ab0295be02610, type: 3}
+--- !u!114 &114000012474332872
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011525080538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Amb
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: 764fda389dbd38f47943ea9779286d01, type: 3}
+--- !u!114 &114000012495111576
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013418582728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: FX
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: 383e0a856c161714ba38c3e95d6d8435, type: 3}
+--- !u!114 &114000012668687080
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010791379366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Water
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: cb25000918c999c47ba108305e135c15, type: 3}
+--- !u!114 &114000012785225846
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011315685048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Amb
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: d2059f5c444f3d5448ef0427d61f445b, type: 3}
+--- !u!114 &114000012816209904
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013681927190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Emitters
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: 6b457e1babd84744dbed9aa2703baa42, type: 3}
+--- !u!114 &114000012862009450
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011656732798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Amb
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: 962bb39351d44304ab6ea76e5e011222, type: 3}
+--- !u!114 &114000012975381436
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012072536344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Catapult
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: 949d07d3be73b6d48a549dcac7b39f7c, type: 3}
+--- !u!114 &114000012987450696
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014284878260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Water
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: 5b6f9d79a10b56d47b0e58cb36c17e85, type: 3}
+--- !u!114 &114000013015455118
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014208545252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Beep
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: f6028d628e30d5a42b5ea3c267f3d0ae, type: 3}
+--- !u!114 &114000013147185912
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011978551462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Amb
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: f62d003876a0c7343a7f119970490eda, type: 3}
+--- !u!114 &114000013347941662
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010246415486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Beep
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: a5eee74b0a287b647b98af3792e945e5, type: 3}
+--- !u!114 &114000013433685662
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010643399238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Amb
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: b4c52e58cecd13348b0b24196498d359, type: 3}
+--- !u!114 &114000013689509346
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011958490064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: FX
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: 46bd23f0112540340af445c48bb5102d, type: 3}
+--- !u!114 &114000013702239224
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012386889276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Amb
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: 1af648d28c9d56442bf93ff6ae7c778e, type: 3}
+--- !u!114 &114000013948047222
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013528365330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Amb
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: b1816c7668ac5094cbbd7d1af243db77, type: 3}
+--- !u!114 &114000013949233816
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012516387684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Amb
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: d73080b53d93c7a4ebe1bed39a1da705, type: 3}
+--- !u!114 &114000014060642474
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013050014714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Amb
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: 31836fca6325c794486a4ecce21ef6b9, type: 3}
+--- !u!114 &114000014068039214
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010167196580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1261343621, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Emitters
+  vB: 1
+  vR: 0
+  pB: 1
+  pR: 0
+  crossFade: 0.1
+  clips:
+  - {fileID: 8300000, guid: a1be7088f0fe0d940b3bc96d4b44dad7, type: 3}

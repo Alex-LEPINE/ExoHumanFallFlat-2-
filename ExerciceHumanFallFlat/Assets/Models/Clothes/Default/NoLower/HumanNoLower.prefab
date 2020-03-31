@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012990967470}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012990967470
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - component: {fileID: 4000012379833152}
+  - component: {fileID: 114000013397642216}
+  m_Layer: 0
+  m_Name: HumanNoLower
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000012379833152
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012990967470}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000013397642216
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012990967470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -605680167, guid: c386120fc5e1d664eaf46f801f628209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ragdollPart: 4
+  rigType: 0
+  replacesCharacter: 0
+  allowHead: 1
+  allowUpperBody: 1
+  allowLowerBody: 1
+  baseTexture: {fileID: 0}
+  maskTexture: {fileID: 0}
+  mask1: 0
+  mask2: 0
+  mask3: 0
+  color1: {r: 0, g: 0, b: 0, a: 0}
+  color2: {r: 0, g: 0, b: 0, a: 0}
+  color3: {r: 0, g: 0, b: 0, a: 0}
+  partHead: {fileID: 0}
+  partChest: {fileID: 0}
+  partWaist: {fileID: 0}
+  partHips: {fileID: 0}
+  partLeftArm: {fileID: 0}
+  partLeftForearm: {fileID: 0}
+  partLeftHand: {fileID: 0}
+  partLeftThigh: {fileID: 0}
+  partLeftLeg: {fileID: 0}
+  partLeftFoot: {fileID: 0}
+  partRightArm: {fileID: 0}
+  partRightForearm: {fileID: 0}
+  partRightHand: {fileID: 0}
+  partRightThigh: {fileID: 0}
+  partRightLeg: {fileID: 0}
+  partRightFoot: {fileID: 0}
+  texture: {fileID: 0}
+  _padded: {fileID: 0}

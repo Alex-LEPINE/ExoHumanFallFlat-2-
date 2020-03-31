@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FontCheckTool cacheAllTTF="False">
+
+    <!-- Master default font builder settings. Will fall back to these settings if the <Font> doesn't have one, and if there's no history stored in the asset
+         (or cached in a <CachedFontSettings>). These are sensible defaults for when new fonts are added. Can cut+paste into a <Font> to override per font. -->
+    <DefaultFontSettings>
+        <fontSizingMode>1</fontSizingMode>
+        <fontSize>44</fontSize>
+        <fontPadding>5</fontPadding>
+        <fontPackingMode>4</fontPackingMode>
+        <fontAtlasWidth>512</fontAtlasWidth>
+        <fontAtlasHeight>512</fontAtlasHeight>
+        <fontCharacterSet>7</fontCharacterSet>
+        <fontStyle>0</fontStyle>
+        <fontStlyeModifier>2</fontStlyeModifier>
+        <fontRenderMode>6</fontRenderMode>
+        <fontKerning>false</fontKerning>
+    </DefaultFontSettings>
+
+    <!-- For each platform, list the languages enabled on that platform. The name can be a comma-separated list of platform names. -->
+    <!-- These language flags will be ANDed with the ones inside each font, so you can regenerate the fonts to target just one platform if desired. -->
+    <!-- If a language in the spreadsheet doesn't have an entry here, you'll get a warning in the report so it doesn't get missed when a new language is added. -->
+    <Platform name="Base">
+        <Language name="English" enabled="True"/>
+        <Language name="French" enabled="True"/>
+        <Language name="Spanish" enabled="True"/>
+        <Language name="German" enabled="True"/>
+        <Language name="Russian" enabled="True"/>
+        <Language name="Italian" enabled="True"/>
+        <Language name="Chinese Simplified" enabled="True"/>
+        <Language name="Japanese" enabled="True"/>
+        <Language name="Korean" enabled="True"/>
+        <Language name="Brazilian Portuguese" enabled="True"/>
+        <Language name="Turkish" enabled="True"/>
+        <Language name="Thai" enabled="True"/>
+        <Language name="Indonesian" enabled="True"/>
+        <Language name="Polish" enabled="True"/>
+        <Language name="Ukrainian" enabled="True"/>
+        <Language name="Arabic" enabled="False"/>
+        <Language name="Portuguese" enabled="True"/>
+        <Language name="Lithuanian" enabled="True"/>
+    </Platform>
+    <Platform name="PS4,XboxOne,Switch">
+        <Language name="English" enabled="True"/>
+        <Language name="French" enabled="True"/>
+        <Language name="Spanish" enabled="True"/>
+        <Language name="German" enabled="True"/>
+        <Language name="Russian" enabled="True"/>
+        <Language name="Italian" enabled="False"/>
+        <Language name="Chinese Simplified" enabled="True"/>
+        <Language name="Japanese" enabled="True"/>
+        <Language name="Korean" enabled="True"/>
+        <Language name="Brazilian Portuguese" enabled="False"/>
+        <Language name="Turkish" enabled="False"/>
+        <Language name="Thai" enabled="False"/>
+        <Language name="Indonesian" enabled="False"/>
+        <Language name="Polish" enabled="False"/>
+        <Language name="Ukrainian" enabled="False"/>
+        <Language name="Arabic" enabled="False"/>
+        <Language name="Portuguese" enabled="False"/>
+        <Language name="Lithuanian" enabled="False"/>
+    </Platform>
+    
+    <!-- You can define Modifier profiles here, which can inherit from other profiles. This allows many fonts with the same settings to
+         share a profile, so there is only one place that needs updating when new modifiers are created. -->
+
+    <!-- this profile adds nothing by default, but strips a few unwanted chars that should never be in fonts -->
+    <Profile name="blank">
+        <Modifier name="Strings_AddAll" value="False"/>
+        <Modifier name="Strings_AddWrittenBy" value="False"/>
+        <Modifier name="Strings_AddTomas" value="False"/>
+        <Modifier name="AddASCII" value="False"/>
+        <Modifier name="AddOnlineID" value="False"/>
+        <Modifier name="AddLatin1" value="False"/>
+        <Modifier name="AddButtons" value="False"/>
+        <Modifier name="AddUpperCase" value="False"/>
+        <Modifier name="AddLowerCase" value="False"/>
+        <Modifier name="AddSymbols" value="False"/>
+        <Modifier name="AddNumbers" value="False"/>
+        <Modifier name="AddSpace" value="False"/>
+        <Modifier name="AddHardSpace" value="False"/>
+        <Modifier name="RemoveASCII" value="False"/>
+        <Modifier name="RemoveCtrl" value="True"/>
+        <Modifier name="RemoveButtons" value="False"/>
+        <Modifier name="RemoveSpace" value="False"/>
+        <Modifier name="RemovePlaceholders" value="True"/>
+        <Modifier name="RemoveFormatParams" value="True"/>
+    </Profile>
+    
+
+    <!--
+    <IgnoreFont name="Blogger Sans-Bold SDF"/>
+    -->
+    <IgnoreFont name="ButtonIcons SDF"/>
+    <IgnoreFont name="LiberationSans SDF"/>
+
+    <!-- Font checking jobs. Each job requires one or more font declarations, plus a list of modifiers and a list of languages. -->
+    <!-- If you miss a language here that's in the project, a warning will appear in the report. -->
+
+    <!-- ======================================= Menu SDF ============================================== -->
+    
+    <Job comment="Menu">
+        <!-- Menu SDF is a root font with lots of fallbacks:
+            - Menu contains all the western languages plus russian
+            - MenuCJK contains Chinese, Korean and Japanese - EXCEPT for Switch/PS4 which replace MenuCJK with mgenplus-japan
+            - MenuTHAI contains just Thai
+            - nintendo_ext_LE_003/XB1PS4Joypads/MouseSDF contain the button icons
+        -->
+    
+        <Font name="Menu SDF" lastKnownPath="Assets/Fonts/Menu SDF.asset" guid="73c74e160e133fd48bb87a39541fd36d">
+            <DefaultFontSettings>
+                <fontSourcePath>Assets/Fonts/NotoSans-Regular.ttf</fontSourcePath>
+                <fontSizingMode>1</fontSizingMode>
+                <fontSize>44</fontSize>
+                <fontPadding>5</fontPadding>
+                <fontPackingMode>4</fontPackingMode>
+                <fontAtlasWidth>1024</fontAtlasWidth>
+                <fontAtlasHeight>512</fontAtlasHeight>
+                <fontCharacterSet>7</fontCharacterSet>
+                <fontStyle>0</fontStyle>
+                <fontStlyeModifier>2</fontStlyeModifier>
+                <fontRenderMode>6</fontRenderMode>
+                <fontKerning>false</fontKerning>
+            </DefaultFontSettings>
+        </Font>
+
+        <Languages>
+            <Language name="English" enabled="True"/>
+            <Language name="French" enabled="True"/>
+            <Language name="Spanish" enabled="True"/>
+            <Language name="German" enabled="True"/>
+            <Language name="Russian" enabled="True"/>
+            <Language name="Italian" enabled="True"/>
+            <Language name="Chinese Simplified" enabled="False"/>
+            <Language name="Japanese" enabled="False"/>
+            <Language name="Korean" enabled="False"/>
+            <Language name="Brazilian Portuguese" enabled="True"/> <!-- //// guessing -->
+            <Language name="Turkish" enabled="True"/> <!-- //// guessing -->
+            <Language name="Thai" enabled="False"/>
+            <Language name="Indonesian" enabled="True"/> <!-- //// guessing -->
+            <Language name="Polish" enabled="True"/> <!-- //// guessing -->
+            <Language name="Ukrainian" enabled="True"/> <!-- //// guessing -->
+            <Language name="Arabic" enabled="False"/> <!-- //// guessing -->
+            <Language name="Portuguese" enabled="True"/> <!-- //// guessing -->
+            <Language name="Lithuanian" enabled="True"/> <!-- //// guessing -->
+        </Languages>
+
+        <Modifiers baseProfile="blank">
+            <Modifier name="Strings_AddAll" value="True"/>
+            <Modifier name="AddASCII" value="True"/> <!-- for debugging support -->
+            <Modifier name="AddOnlineID" value="True"/> <!-- vital for PS4 -->
+            <Modifier name="AddHardSpace" value="True"/> <!-- convenience -->
+            <Modifier name="RemoveButtons" value="True"/>
+        </Modifiers>
+
+        <AuxInputs>
+            <Hex>
+                2026,       <!-- ellipsis is used on OverheadNameTag (though currently it's using the Arial ttf) -->
+            </Hex>
+        </AuxInputs>
+
+    </Job>
+
+    <!-- ===================================== MenuCJK SDF ============================================= -->
+    
+    <Job comment="MenuCJK">
+        <!-- see Menu. Contains Chinese, Korean and Japanese (although PS4/Switch use different Japanese font instead) -->
+        <!-- Online IDs/ASCII will come from Menu instead. -->
+        <Font name="MenuCJK SDF" lastKnownPath="Assets/Fonts/MenuCJK SDF.asset" guid="3c438c56fcc770441a4254a0a3757fac">
+            <DefaultFontSettings>
+                <fontSourcePath>Assets/Fonts/NotoSansCJKsc-Regular.otf</fontSourcePath>
+                <fontSizingMode>1</fontSizingMode>
+                <fontSize>44</fontSize>
+                <fontPadding>5</fontPadding>
+                <fontPackingMode>4</fontPackingMode>
+                <fontAtlasWidth>2048</fontAtlasWidth>
+                <fontAtlasHeight>2048</fontAtlasHeight>
+                <fontCharacterSet>7</fontCharacterSet>
+                <fontStyle>0</fontStyle>
+                <fontStlyeModifier>2</fontStlyeModifier>
+                <fontRenderMode>6</fontRenderMode>
+                <fontKerning>false</fontKerning>
+            </DefaultFontSettings>
+        </Font>
+        
+        <AuxInputs>
+            <!-- MenuCJK SDF is always hidden behind Menu SDF -->
+            <ImportFontTable mode="remove" name="Menu SDF"/>
+        </AuxInputs>
+
+        <Languages>
+            <Language name="English" enabled="False"/>
+            <Language name="French" enabled="False"/>
+            <Language name="Spanish" enabled="False"/>
+            <Language name="German" enabled="False"/>
+            <Language name="Russian" enabled="False"/>
+            <Language name="Italian" enabled="False"/>
+            <Language name="Chinese Simplified" enabled="True"/>
+            <Language name="Japanese" enabled="True"/>
+            <Language name="Korean" enabled="True"/>
+            <Language name="Brazilian Portuguese" enabled="False"/>
+            <Language name="Turkish" enabled="False"/>
+            <Language name="Thai" enabled="False"/>
+            <Language name="Indonesian" enabled="False"/>
+            <Language name="Polish" enabled="False"/>
+            <Language name="Ukrainian" enabled="False"/>
+            <Language name="Arabic" enabled="False"/>
+            <Language name="Portuguese" enabled="False"/>
+            <Language name="Lithuanian" enabled="False"/>
+        </Languages>
+
+        <Modifiers baseProfile="blank">
+            <Modifier name="Strings_AddAll" value="True" />
+            <Modifier name="RemoveButtons" value="True" />
+        </Modifiers>
+      
+    </Job>
+
+    <!-- ===================================== MenuTHAI SDF ============================================ -->
+    
+    <Job comment="MenuTHAI">
+        <!-- see Menu. Contains Thai only. Online IDs/ASCII will come from Menu instead. -->
+        <Font name="MenuTHAI SDF" lastKnownPath="Assets/Fonts/MenuTHAI SDF.asset" guid="ca770c436c42cc045b3b38bb5a65f20a">
+            <DefaultFontSettings>
+                <fontSourcePath>Assets/Fonts/NotoSansThai-Regular.ttf</fontSourcePath>
+                <fontSizingMode>1</fontSizingMode>
+                <fontSize>44</fontSize>
+                <fontPadding>5</fontPadding>
+                <fontPackingMode>4</fontPackingMode>
+                <fontAtlasWidth>512</fontAtlasWidth>
+                <fontAtlasHeight>256</fontAtlasHeight>
+                <fontCharacterSet>7</fontCharacterSet>
+                <fontStyle>0</fontStyle>
+                <fontStlyeModifier>2</fontStlyeModifier>
+                <fontRenderMode>6</fontRenderMode>
+                <fontKerning>false</fontKerning>
+            </DefaultFontSettings>
+        </Font>
+
+        <!-- MenuTHAI SDF is always hidden behind Menu SDF -->
+        <AuxInputs>
+            <ImportFontTable mode="remove" name="Menu SDF"/>
+        </AuxInputs>
+
+        <Languages>
+            <Language name="English" enabled="False"/>
+            <Language name="French" enabled="False"/>
+            <Language name="Spanish" enabled="False"/>
+            <Language name="German" enabled="False"/>
+            <Language name="Russian" enabled="False"/>
+            <Language name="Italian" enabled="False"/>
+            <Language name="Chinese Simplified" enabled="False"/>
+            <Language name="Japanese" enabled="False"/>
+            <Language name="Korean" enabled="False"/>
+            <Language name="Brazilian Portuguese" enabled="False"/>
+            <Language name="Turkish" enabled="False"/>
+            <Language name="Thai" enabled="True"/>
+            <Language name="Indonesian" enabled="False"/>
+            <Language name="Polish" enabled="False"/>
+            <Language name="Ukrainian" enabled="False"/>
+            <Language name="Arabic" enabled="False"/>
+            <Language name="Portuguese" enabled="False"/>
+            <Language name="Lithuanian" enabled="False"/>
+        </Languages>
+
+        <Modifiers baseProfile="blank">
+            <Modifier name="Strings_AddAll" value="True" />
+            <Modifier name="RemoveButtons" value="True" />
+        </Modifiers>
+    </Job>
+
+    <!-- ==================================== mgenplus-japan =========================================== -->
+    
+    <Job comment="mgenplus-japan">
+        <!-- see Menu. Contains Japanese only, and only used on Switch/PS4. Online IDs/ASCII will come from Menu instead. -->
+        <Font name="mgenplus-japan" lastKnownPath="Assets/Fonts/mgenplus-japan.asset" guid="a3d56883372c1a04ba8f6aeaa1ef3829">
+            <!-- ///// was previously captured at 68pt. Not sure if this was an error or not. It would cause outlines to be the wrong size, but this might be wanted. Investigate -->
+            <DefaultFontSettings>
+                <fontSourcePath>Assets/Fonts/rounded-x-mgenplus-1c-medium.ttf</fontSourcePath>
+                <fontSizingMode>1</fontSizingMode>
+                <fontSize>44</fontSize>
+                <fontPadding>5</fontPadding>
+                <fontPackingMode>4</fontPackingMode>
+                <fontAtlasWidth>1024</fontAtlasWidth>
+                <fontAtlasHeight>1024</fontAtlasHeight>
+                <fontCharacterSet>7</fontCharacterSet>
+                <fontStyle>0</fontStyle>
+                <fontStlyeModifier>2</fontStlyeModifier>
+                <fontRenderMode>6</fontRenderMode>
+                <fontKerning>false</fontKerning>
+            </DefaultFontSettings>
+        </Font>
+
+        <!-- mgenplus-japan is always hidden behind Menu SDF, and replaces MenuCJK on some platforms when Japanese is selected -->
+        <AuxInputs>
+            <ImportFontTable mode="remove" name="Menu SDF"/>
+        </AuxInputs>
+
+        <Languages>
+            <Language name="English" enabled="False"/>
+            <Language name="French" enabled="False"/>
+            <Language name="Spanish" enabled="False"/>
+            <Language name="German" enabled="False"/>
+            <Language name="Russian" enabled="False"/>
+            <Language name="Italian" enabled="False"/>
+            <Language name="Chinese Simplified" enabled="False"/>
+            <Language name="Japanese" enabled="True"/>
+            <Language name="Korean" enabled="False"/>
+            <Language name="Brazilian Portuguese" enabled="False"/>
+            <Language name="Turkish" enabled="False"/>
+            <Language name="Thai" enabled="False"/>
+            <Language name="Indonesian" enabled="False"/>
+            <Language name="Polish" enabled="False"/>
+            <Language name="Ukrainian" enabled="False"/>
+            <Language name="Arabic" enabled="False"/>
+            <Language name="Portuguese" enabled="False"/>
+            <Language name="Lithuanian" enabled="False"/>
+        </Languages>
+
+        <Modifiers baseProfile="blank">
+            <Modifier name="Strings_AddAll" value="True" />
+            <Modifier name="RemoveASCII" value="True" />
+            <Modifier name="RemoveButtons" value="True" />
+        </Modifiers>
+    </Job>
+
+    <!-- ========================================= GoodDog SDF ========================================= -->
+    
+    <Job comment="GoodDog">
+        <Font name="GoodDog SDF" lastKnownPath="Assets/Fonts/GoodDog SDF.asset" guid="69af3571e15c059498855f00a93f6cda">
+            <DefaultFontSettings>
+                <fontSourcePath>Assets/Fonts/GOODDP__PlusEAcute.ttf</fontSourcePath>
+                <fontSizingMode>1</fontSizingMode>
+                <fontSize>80</fontSize>
+                <fontPadding>5</fontPadding>
+                <fontPackingMode>4</fontPackingMode>
+                <fontAtlasWidth>256</fontAtlasWidth>
+                <fontAtlasHeight>256</fontAtlasHeight>
+                <fontCharacterSet>7</fontCharacterSet>
+                <fontStyle>0</fontStyle>
+                <fontStlyeModifier>2</fontStlyeModifier>
+                <fontRenderMode>6</fontRenderMode>
+                <fontKerning>false</fontKerning>
+            </DefaultFontSettings>
+        </Font>
+
+        <!-- this is used for two lines: the "Written By" string (translated), and Tomas' name. But GoodDog only contains plain
+             ASCII, plus an E-accute I added manually (for French). For Russian and Western alphabets, the fallbacks will be used
+             and we'll only need Tomas' name in GoodDog.
+        -->
+        <Languages>
+            <Language name="English" enabled="True"/>
+            <Language name="French" enabled="True"/>
+            <Language name="Spanish" enabled="True"/>
+            <Language name="German" enabled="True"/>
+            <Language name="Russian" enabled="False"/>
+            <Language name="Italian" enabled="True"/>
+            <Language name="Chinese Simplified" enabled="False"/>
+            <Language name="Japanese" enabled="False"/>
+            <Language name="Korean" enabled="False"/>
+            <Language name="Brazilian Portuguese" enabled="True"/> <!-- maybe -->
+            <Language name="Turkish" enabled="True"/> <!-- maybe -->
+            <Language name="Thai" enabled="False"/>
+            <Language name="Indonesian" enabled="True"/> <!-- maybe -->
+            <Language name="Polish" enabled="True"/> <!-- maybe -->
+            <Language name="Ukrainian" enabled="False"/>
+            <Language name="Arabic" enabled="False"/>
+            <Language name="Portuguese" enabled="True"/> <!-- maybe -->
+            <Language name="Lithuanian" enabled="False"/>
+        </Languages>
+        
+        <!-- ///// need to split this into two lines in code, and fix up the font on the first line according to the selected language -->
+
+        <Modifiers baseProfile="blank">
+            <Modifier name="Strings_AddAll" value="False" />
+            <Modifier name="Strings_AddWrittenBy" value="True" />
+            <Modifier name="Strings_AddTomas" value="True" />
+        </Modifiers>
+    </Job>
+
+    <!-- ======================================== Buttons ============================================== -->
+
+    <Job comment="Button Icons">
+        <!-- These have to be 3 separate font assets because the characters come from 3 separate ttfs. Irritating. -->
+        <!-- Note that for the outlines to be drawn at the correct thickness, the glyphs have to be captured at the same pt size as the root font, typically Menu -->
+        
+        <Font name="nintendo_ext_LE_003 SDF" lastKnownPath="Assets/Fonts/nintendo_ext_LE_003 SDF.asset" guid="bd25dfad991338d4282d772d38f0bc7f">
+            <!-- note: was previously built at wrong size. Have left it unchanged, because it will only affect Switch and it's up to Keith -->
+            <DefaultFontSettings>
+                <fontSourcePath>Assets/Fonts/nintendo_ext_LE_003.ttf</fontSourcePath>
+                <fontSizingMode>1</fontSizingMode>
+                <fontSize>36</fontSize>
+                <fontPadding>5</fontPadding>
+                <fontPackingMode>4</fontPackingMode>
+                <fontAtlasWidth>512</fontAtlasWidth>
+                <fontAtlasHeight>512</fontAtlasHeight>
+                <fontCharacterSet>7</fontCharacterSet>
+                <fontStyle>0</fontStyle>
+                <fontStlyeModifier>2</fontStlyeModifier>
+                <fontRenderMode>6</fontRenderMode>
+                <fontKerning>false</fontKerning>
+            </DefaultFontSettings>
+        </Font>
+
+        <Font name="XB1PS4JoypadsSDF" lastKnownPath="Assets/Fonts/XB1PS4JoypadsSDF.asset" guid="e2feffcb4839d584899097ecbd7e7265">
+            <!-- I think Assets/Fonts/Blogger Sans-Bold.ttf is identical -->
+            <!-- //// was previously built at wrong size - corrected -->
+            <DefaultFontSettings>
+                <fontSourcePath>Assets/Fonts/ButtonIcons/Modified Blogger Sans-Bold.ttf</fontSourcePath>
+                <fontSizingMode>1</fontSizingMode>
+                <fontSize>44</fontSize>
+                <fontPadding>5</fontPadding>
+                <fontPackingMode>4</fontPackingMode>
+                <fontAtlasWidth>512</fontAtlasWidth>
+                <fontAtlasHeight>512</fontAtlasHeight>
+                <fontCharacterSet>7</fontCharacterSet>
+                <fontStyle>0</fontStyle>
+                <fontStlyeModifier>2</fontStlyeModifier>
+                <fontRenderMode>6</fontRenderMode>
+                <fontKerning>false</fontKerning>
+            </DefaultFontSettings>
+        </Font>
+
+        <Font name="MouseSDF" lastKnownPath="Assets/Fonts/MouseSDF.asset" guid="1e87b924422270344937887ae5d249d5">
+            <!-- //// was previously built at wrong size - corrected -->
+            <DefaultFontSettings>
+                <fontSourcePath>Assets/Fonts/Glyphter.ttf</fontSourcePath>
+                <fontSizingMode>1</fontSizingMode>
+                <fontSize>44</fontSize>
+                <fontPadding>5</fontPadding>
+                <fontPackingMode>4</fontPackingMode>
+                <fontAtlasWidth>64</fontAtlasWidth>
+                <fontAtlasHeight>64</fontAtlasHeight>
+                <fontCharacterSet>7</fontCharacterSet>
+                <fontStyle>0</fontStyle>
+                <fontStlyeModifier>2</fontStlyeModifier>
+                <fontRenderMode>6</fontRenderMode>
+                <fontKerning>false</fontKerning>
+            </DefaultFontSettings>
+        </Font>
+
+        <AuxInputs>
+            <!-- these scrape the ttf files for a full list of chars in the fonts and add them to the required list. This is just a precaution, as Switch
+                has been embedding chars directly in code all over the place, and I'm not confident that I've found them all. This makes sure I haven't
+                missed any -->
+            <AllTTFContents mode="add" comment="All Switch Chars">Assets/Fonts/nintendo_ext_LE_003.ttf</AllTTFContents>
+            <AllTTFContents mode="add" comment="All PC Chars">Assets/Fonts/Glyphter.ttf</AllTTFContents> <!-- Mouse SDF -->
+            <!--
+            <AllTTFContents mode="add" comment="ttf stuff">Assets/Fonts/XB1PS4JoypadsSDF.ttf</AllTTFContents>
+            <AllTTFContents mode="add" comment="ttf stuff">Assets/Fonts/NotoSansCJKsc-Regular.otf</AllTTFContents>
+            -->
+        </AuxInputs>
+        
+        <Languages>
+            <Language name="English" enabled="False"/>
+            <Language name="French" enabled="False"/>
+            <Language name="Spanish" enabled="False"/>
+            <Language name="German" enabled="False"/>
+            <Language name="Russian" enabled="False"/>
+            <Language name="Italian" enabled="False"/>
+            <Language name="Chinese Simplified" enabled="False"/>
+            <Language name="Japanese" enabled="False"/>
+            <Language name="Korean" enabled="False"/>
+            <Language name="Brazilian Portuguese" enabled="False"/>
+            <Language name="Turkish" enabled="False"/>
+            <Language name="Thai" enabled="False"/>
+            <Language name="Indonesian" enabled="False"/>
+            <Language name="Polish" enabled="False"/>
+            <Language name="Ukrainian" enabled="False"/>
+            <Language name="Arabic" enabled="False"/>
+            <Language name="Portuguese" enabled="False"/>
+            <Language name="Lithuanian" enabled="False"/>
+        </Languages>
+        
+        <Modifiers>
+            <Modifier name="Strings_AddAll" value="False" />
+            <Modifier name="Strings_AddWrittenBy" value="False" />
+            <Modifier name="Strings_AddTomas" value="False" />
+            <Modifier name="AddASCII" value="False" />
+            <Modifier name="AddOnlineID" value="False" />
+            <Modifier name="AddLatin1" value="False" />
+            <Modifier name="AddButtons" value="True" />
+            <Modifier name="AddUpperCase" value="False" />
+            <Modifier name="AddLowerCase" value="False" />
+            <Modifier name="AddSymbols" value="False" />
+            <Modifier name="AddNumbers" value="False" />
+            <Modifier name="AddSpace" value="False" />
+            <Modifier name="AddHardSpace" value="False" />
+            <Modifier name="RemoveASCII" value="True" />
+            <Modifier name="RemoveCtrl" value="True" />
+            <Modifier name="RemoveButtons" value="False" />
+            <Modifier name="RemoveSpace" value="False" />
+            <Modifier name="RemovePlaceholders" value="False" />
+            <Modifier name="RemoveFormatParams" value="False" />
+        </Modifiers>
+        
+    </Job>
+
+    <!-- ==================================== Blogger_Sans-Bold SDF ==================================== -->
+    
+    <!-- Blogger Sans is still used, by most elements of the HUD in fact. However it now falls back to Menu SDF for eastern languages
+        so it'll still do the Japanese font twiddling -->
+    <Job comment="Blogger_Sans-Bold">
+        
+        <Font name="Blogger_Sans-Bold SDF" lastKnownPath="Assets/Fonts/Blogger_Sans-Bold SDF.asset" guid="f02d2b1127eccd9468dc76c8aa50aa5e" />
+        
+        <!-- going to try to set this up as an alternative to MenuSDF as much as possible, with the EXACT SAME character set -->
+        <!-- actually, I'll make it copy Menu SDF, so every time you rebuild Menu SDF you'll need to rebuild this too -->
+        
+        <AuxInputs>
+            <ImportFontTable mode="add" name="Menu SDF" lastKnownPath="Assets/Fonts/Menu SDF.asset" guid="73c74e160e133fd48bb87a39541fd36d"/>
+            <!-- however, Blogger Sans lacks FEFF, which is in Menu SDF, so I've changed the fallbacks of Blogger Sans to point to Menu SDF
+                 (with all its fallbacks), so if we remove FEFF from Blogger Sans then it will be the only char from the root of Menu SDF that will
+                 be drawn, with all the other fallbacks included in Menu SDF's fallbacks. This also means Japanese font switching will work too. -->
+            <Hex mode="remove">A0,FEFF</Hex>
+        </AuxInputs>
+
+        <Languages>
+            <Language name="English" enabled="True"/>
+            <Language name="French" enabled="True"/>
+            <Language name="Spanish" enabled="True"/>
+            <Language name="German" enabled="True"/>
+            <Language name="Russian" enabled="True"/>
+            <Language name="Italian" enabled="True"/>
+            <Language name="Chinese Simplified" enabled="True"/>
+            <Language name="Japanese" enabled="True"/>
+            <Language name="Korean" enabled="True"/>
+            <Language name="Brazilian Portuguese" enabled="True"/>
+            <Language name="Turkish" enabled="True"/>
+            <Language name="Thai" enabled="True"/>
+            <Language name="Indonesian" enabled="True"/>
+            <Language name="Polish" enabled="True"/>
+            <Language name="Ukrainian" enabled="True"/>
+            <Language name="Arabic" enabled="True"/>
+            <Language name="Portuguese" enabled="True"/>
+            <Language name="Lithuanian" enabled="True"/>
+        </Languages>
+
+        <Modifiers baseProfile="blank">
+        </Modifiers>
+        
+    </Job>
+    
+    <!-- =============================== NotoSansCJKsc-Regular SDF ===================================== -->
+
+    <!-- ///// don't know what this is used for. Is it needed? -->
+    <!-- ///// using Ransack, I searched for refs to it or its two aux materials, and couldn't find any -->
+    <Job comment="NotoSansCJKsc-Regular">
+        <Font name="NotoSansCJKsc-Regular SDF" lastKnownPath="Assets/Fonts/NotoSansCJKsc-Regular SDF.asset" guid="92159e90dddbbfd4fb82456ca60df1a0" />
+        <Modifiers baseProfile="blank"/>
+    </Job>
+
+    
+    <!-- =============================== Other notes ===================================== -->
+    <!-- Arial.ttf is used directly, in the NetChat window (ie. not a TMP font), and in the player's OverheadNameTag -->
+    <!-- summary:
+         ARIALUNI.TTF : referenced by SPlayer Slot.prefab, MultiplayerLobbySelectMenu.prefab, and Game.prefab
+         Arial (default built-in unity ttf font): referenced all over the place. Not sure if I'm reading it right
+         Blogger Sans-Bold.ttf : was referenced ONLY in controller-disconnected popup. Have replaced with Arial reference, but needs looking into
+    -->
+         
+    <!-- ///// look for other ttf/otf refs -->
+    
+    
+</FontCheckTool>

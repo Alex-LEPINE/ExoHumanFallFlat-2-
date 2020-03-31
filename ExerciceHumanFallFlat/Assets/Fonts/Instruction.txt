@@ -1,0 +1,15 @@
+I2>Resources>I2Languages>Spreadsheets>
+- Google>Import>Replace
+- Local>Export>Replace>Localization.csv
+
+Window>TextMeshPro>Font Asset Creator
+- FontSource:Roboto
+- FontSize: Custom 44
+- Packing: Optimum
+- Atlas: 512xx512
+- CharSet: From File, Localization.csv
+- Generate
+- Save Font Asset : Fonts\Menu
+
+Fonts\Menu: Roboto 44, 512x512
+Fonts\MenuCJK: NotoCJK 44, 2K
