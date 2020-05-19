@@ -8,7 +8,7 @@ public class BouleTrigger : MonoBehaviour
 
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
+        rb = GetComponentInChildren<Rigidbody>();
 
     }
 
